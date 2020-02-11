@@ -1,0 +1,51 @@
+.navbar {
+  height: 50px;
+  background-color: transparent;
+
+  .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #1245CC;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  .nav-item {
+    &.active {
+      .nav-link {
+        border-bottom: 2px solid #F17614;
+      }
+    }
+
+    .nav-link {
+      font-family: 'Roboto', sans-serif;
+      color: #1245CC;;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-right: 30px;
+      transition: 0.3s all ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        border-bottom: 2px solid #F17614;
+      }
+    }
+  }
+}
+
+.fixed-top {
+  top: 28px;
+}
+.active {
+    .nav-link {
+      border-bottom: 2px solid #F17614;
+    }
+  }
+  .active {
+    border-bottom: 2px solid #F17614;
+  }
